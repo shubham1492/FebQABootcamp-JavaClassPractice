@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FebQABootcamp-JavaClassPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day1/FirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 1 - Hello World">
+      <change afterPath="$PROJECT_DIR$/src/Day2/ArithmeticOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day2/DataTypeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day2/LogicalOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day2/RelationalOperatorsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day2/TernaryOperatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +26,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shubham1492"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shubham1492/FebQABootcamp-JavaClassPractice.git",
+    "accountId": "5ca21f78-9aaa-43f0-880a-7f3a1449e490"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2fIiFIuivSHA4QaqwYPNER4yXiG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,19 +51,75 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArithmeticOperatorExample.executor": "Run",
+    "Application.DataTypeExample.executor": "Run",
     "Application.FirstExample.executor": "Run",
+    "Application.LogicalOperatorExample.executor": "Run",
+    "Application.RelationalOperatorsExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.FirstExample" />
+  <component name="RunManager" selected="Application.TernaryOperatorExample">
+    <configuration name="ArithmeticOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.ArithmeticOperatorExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.*" />
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.DataTypeExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogicalOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.LogicalOperatorExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelationalOperatorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.RelationalOperatorsExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TernaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.TernaryOperatorExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,7 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstExample" />
+        <item itemvalue="Application.TernaryOperatorExample" />
+        <item itemvalue="Application.LogicalOperatorExample" />
+        <item itemvalue="Application.RelationalOperatorsExample" />
+        <item itemvalue="Application.ArithmeticOperatorExample" />
+        <item itemvalue="Application.DataTypeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -75,6 +146,31 @@
       <option name="presentableId" value="Default" />
       <updated>1713494888087</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day 1 - Hello World">
+      <option name="closed" value="true" />
+      <created>1713513983300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713513983300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 1 - Hello World">
+      <option name="closed" value="true" />
+      <created>1713514006704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713514006704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 1 - Hello World">
+      <option name="closed" value="true" />
+      <created>1713514080288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713514080288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +183,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1 - Hello World" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1 - Hello World" />
   </component>
 </project>
