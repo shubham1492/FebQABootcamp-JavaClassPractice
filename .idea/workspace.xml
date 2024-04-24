@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 1 - Hello World">
-      <change afterPath="$PROJECT_DIR$/src/Day2/ArithmeticOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2/DataTypeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2/LogicalOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2/RelationalOperatorsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2/TernaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/ForExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/IfElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/IfElseIfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/IfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/NestedIfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/NestedLoopExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/PyramidExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/SwitchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/SwitchFallthroughExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/SwitchStatementWithString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +34,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shubham1492"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shubham1492&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shubham1492/FebQABootcamp-JavaClassPractice.git",
-    "accountId": "5ca21f78-9aaa-43f0-880a-7f3a1449e490"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shubham1492/FebQABootcamp-JavaClassPractice.git&quot;,
+    &quot;accountId&quot;: &quot;5ca21f78-9aaa-43f0-880a-7f3a1449e490&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,20 +60,31 @@
     "Application.ArithmeticOperatorExample.executor": "Run",
     "Application.DataTypeExample.executor": "Run",
     "Application.FirstExample.executor": "Run",
+    "Application.ForExample.executor": "Run",
+    "Application.IfElseExample.executor": "Run",
+    "Application.IfElseIfExample.executor": "Run",
+    "Application.IfExample.executor": "Run",
     "Application.LogicalOperatorExample.executor": "Run",
+    "Application.NestedIfExample.executor": "Run",
+    "Application.NestedLoopExample.executor": "Run",
+    "Application.PyramidExample.executor": "Run",
     "Application.RelationalOperatorsExample.executor": "Run",
+    "Application.SwitchExample.executor": "Run",
+    "Application.SwitchFallthroughExample.executor": "Run",
+    "Application.SwitchStatementWithString.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TernaryOperatorExample">
-    <configuration name="ArithmeticOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.ArithmeticOperatorExample" />
+  <component name="RunManager" selected="Application.PyramidExample">
+    <configuration name="ForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.ForExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.DataTypeExample" />
+    <configuration name="NestedLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.NestedLoopExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicalOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.LogicalOperatorExample" />
+    <configuration name="PyramidExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.PyramidExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelationalOperatorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.RelationalOperatorsExample" />
+    <configuration name="SwitchFallthroughExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.SwitchFallthroughExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.TernaryOperatorExample" />
+    <configuration name="SwitchStatementWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.SwitchStatementWithString" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TernaryOperatorExample" />
-        <item itemvalue="Application.LogicalOperatorExample" />
-        <item itemvalue="Application.RelationalOperatorsExample" />
-        <item itemvalue="Application.ArithmeticOperatorExample" />
-        <item itemvalue="Application.DataTypeExample" />
+        <item itemvalue="Application.PyramidExample" />
+        <item itemvalue="Application.NestedLoopExample" />
+        <item itemvalue="Application.ForExample" />
+        <item itemvalue="Application.SwitchStatementWithString" />
+        <item itemvalue="Application.SwitchFallthroughExample" />
       </list>
     </recent_temporary>
   </component>
