@@ -1,6 +1,6 @@
 package Day5.interfaceexample;
 
-public class HpPrinter implements printable {
+public class HpPrinter implements Printable {
 
     public void print(){
         System.out.println("Hp printer print");

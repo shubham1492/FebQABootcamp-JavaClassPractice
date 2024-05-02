@@ -1,6 +1,6 @@
 package Day5.interfaceexample;
 
-public interface printable {
+public interface Printable {
 
     void print();
 }

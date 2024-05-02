@@ -1,6 +1,6 @@
 package Day5.interfaceexample;
 
-class Dell implements printable{
+class Dell implements Printable{
 
     public void print(){
         System.out.println("Dell Printer");
