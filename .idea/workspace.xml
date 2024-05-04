@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 5 - opps concept">
-      <change afterPath="$PROJECT_DIR$/src/Day6/DefaultConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day6/Employee.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 6 - Java Naming convention and Constructor">
+      <change afterPath="$PROJECT_DIR$/src/Day6/TestDefaultOutSidePackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day6/TestProtectedOutSidePackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day6/TestPublicModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/DefaultModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/InstanceBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/PrivateModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/ProtectedModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/PublicModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/TestDefaultModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/TestPrivateModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/TestProtected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/finalkeyword/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/finalkeyword/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/statickeyword/CounterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/statickeyword/StaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/statickeyword/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day7/statickeyword/TestStaticKeyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/interfaceexample/Dell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/interfaceexample/Dell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/interfaceexample/HpPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/interfaceexample/HpPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/interfaceexample/printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/interfaceexample/Printable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +66,7 @@
   "keyToString": {
     "Application.ArithmeticOperatorExample.executor": "Run",
     "Application.Bike.executor": "Run",
+    "Application.CounterExample.executor": "Run",
     "Application.DataTypeExample.executor": "Run",
     "Application.DefaultConstructor.executor": "Run",
     "Application.Dell.executor": "Run",
@@ -71,21 +83,29 @@
     "Application.IfExample.executor": "Run",
     "Application.InfiniteDoWhileLoop.executor": "Run",
     "Application.InfiniteWhileLoop.executor": "Run",
+    "Application.InstanceBlock.executor": "Run",
     "Application.LogicalOperatorExample.executor": "Run",
     "Application.NestedIfExample.executor": "Run",
     "Application.NestedLoopBreakExample.executor": "Run",
     "Application.NestedLoopContinueExample.executor": "Run",
     "Application.NestedLoopExample.executor": "Run",
+    "Application.PrivateModifier.executor": "Run",
     "Application.Programmer.executor": "Run",
     "Application.PyramidExample.executor": "Run",
     "Application.RelationalOperatorsExample.executor": "Run",
+    "Application.StaticBlock.executor": "Run",
     "Application.SwitchExample.executor": "Run",
     "Application.SwitchFallthroughExample.executor": "Run",
     "Application.SwitchStatementWithString.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestBank.executor": "Run",
+    "Application.TestDefaultModifier.executor": "Run",
     "Application.TestMethodOverloading.executor": "Run",
     "Application.TestMethodOverriding.executor": "Run",
+    "Application.TestProtected.executor": "Run",
+    "Application.TestProtectedOutSidePackage.executor": "Run",
+    "Application.TestPublicModifier.executor": "Run",
+    "Application.TestStaticKeyword.executor": "Run",
     "Application.TestStudent.executor": "Run",
     "Application.WhileLoopExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,9 +114,48 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Employee">
-    <configuration name="DefaultConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day6.DefaultConstructor" />
+  <component name="RunManager" selected="Application.InstanceBlock">
+    <configuration name="CounterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day7.statickeyword.CounterExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day7.statickeyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day7.InstanceBlock" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day7.statickeyword.StaticBlock" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day7.statickeyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPublicModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.TestPublicModifier" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
@@ -108,51 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day5.interfaceexample.Dell" />
+    <configuration name="TestStaticKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day7.statickeyword.TestStaticKeyword" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day5.interfaceexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day6.Employee" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HpPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day5.interfaceexample.HpPrinter" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day5.interfaceexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day5.encapsulation.Test" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day5.encapsulation.*" />
+          <option name="PATTERN" value="Day7.statickeyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.DefaultConstructor" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Dell" />
-        <item itemvalue="Application.HpPrinter" />
+        <item itemvalue="Application.InstanceBlock" />
+        <item itemvalue="Application.StaticBlock" />
+        <item itemvalue="Application.TestStaticKeyword" />
+        <item itemvalue="Application.CounterExample" />
+        <item itemvalue="Application.TestPublicModifier" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714464580851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 6 - Java Naming convention and Constructor">
+      <option name="closed" value="true" />
+      <created>1714633195508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714633195508</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +274,7 @@
     <MESSAGE value="Day 3 - IF ELse and for loop" />
     <MESSAGE value="Day 4 - Loops and opps concept" />
     <MESSAGE value="Day 5 - opps concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5 - opps concept" />
+    <MESSAGE value="Day 6 - Java Naming convention and Constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 - Java Naming convention and Constructor" />
   </component>
 </project>
