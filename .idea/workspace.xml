@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 7 - Java Access Modifier, Static, final and instance block">
-      <change afterPath="$PROJECT_DIR$/src/Day8/AdditionMatrixExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/FindMinimumNumberInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/TestArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/TestArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/TestArrayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/TestMultidimentionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/TestReturnArray.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 8 - Java Arrays">
+      <change afterPath="$PROJECT_DIR$/src/Day9/ArrayCodingExcersize/FindDuplicateNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day9/ArrayCodingExcersize/FindFequencyOfEachElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day9/ArrayCodingExcersize/FindPairsInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +59,8 @@
     "Application.DoWhileLoopExample.executor": "Run",
     "Application.DownwardTrianglePattern.executor": "Run",
     "Application.Employee.executor": "Run",
+    "Application.FindDuplicateNumberInArray.executor": "Run",
+    "Application.FindFequencyOfEachElementInArray.executor": "Run",
     "Application.FindMinimumNumberInArray.executor": "Run",
     "Application.FirstExample.executor": "Run",
     "Application.ForExample.executor": "Run",
@@ -110,7 +108,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AdditionMatrixExample">
+  <component name="RunManager" selected="Application.FindPairsInArray">
     <configuration name="AdditionMatrixExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day8.AdditionMatrixExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
@@ -124,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.FindMinimumNumberInArray" />
+    <configuration name="FindDuplicateNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day9.ArrayCodingExcersize.FindDuplicateNumberInArray" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.*" />
+          <option name="PATTERN" value="Day9.ArrayCodingExcersize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +135,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.TestArrayException" />
+    <configuration name="FindFequencyOfEachElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day9.ArrayCodingExcersize.FindFequencyOfEachElementInArray" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.*" />
+          <option name="PATTERN" value="Day9.ArrayCodingExcersize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPairsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day9.ArrayCodingExcersize.FindPairsInArray" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9.ArrayCodingExcersize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,26 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReturnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.TestReturnArray" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPairsInArray" />
+        <item itemvalue="Application.FindFequencyOfEachElementInArray" />
+        <item itemvalue="Application.FindDuplicateNumberInArray" />
         <item itemvalue="Application.AdditionMatrixExample" />
         <item itemvalue="Application.TestMultidimentionalArray" />
-        <item itemvalue="Application.TestArrayException" />
-        <item itemvalue="Application.TestReturnArray" />
-        <item itemvalue="Application.FindMinimumNumberInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714787716907</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 8 - Java Arrays">
+      <option name="closed" value="true" />
+      <created>1714986479834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714986479834</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +286,7 @@
     <MESSAGE value="Day 5 - opps concept" />
     <MESSAGE value="Day 6 - Java Naming convention and Constructor" />
     <MESSAGE value="Day 7 - Java Access Modifier, Static, final and instance block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 7 - Java Access Modifier, Static, final and instance block" />
+    <MESSAGE value="Day 8 - Java Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 8 - Java Arrays" />
   </component>
 </project>
