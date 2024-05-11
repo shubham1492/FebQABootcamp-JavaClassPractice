@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 9 - Java- Arrays coding excersize">
-      <change afterPath="$PROJECT_DIR$/src/Day10/string/StringCompareToExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/string/StringConcatinationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/string/StringEqualOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/string/StringEqualsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/string/StringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/string/StringImmutableExample.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 10 - Java- String">
+      <change afterPath="$PROJECT_DIR$/src/Day11/StringBufferAndStringBuilderPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/StringCodingExample/CheckPalindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/StringCodingExample/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/StringCodingExample/SwapTwoStringExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/stringbuffer/StringBufferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/stringbuilder/StringBuilderExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
   "keyToString": {
     "Application.ArithmeticOperatorExample.executor": "Run",
     "Application.Bike.executor": "Run",
+    "Application.CheckPalindrom.executor": "Run",
     "Application.CounterExample.executor": "Run",
     "Application.DataTypeExample.executor": "Run",
     "Application.DefaultConstructor.executor": "Run",
@@ -85,13 +86,18 @@
     "Application.Programmer.executor": "Run",
     "Application.PyramidExample.executor": "Run",
     "Application.RelationalOperatorsExample.executor": "Run",
+    "Application.ReverseString.executor": "Run",
     "Application.StaticBlock.executor": "Run",
+    "Application.StringBufferAndStringBuilderPerformanceTest.executor": "Run",
+    "Application.StringBufferExample.executor": "Run",
+    "Application.StringBuilderExample.executor": "Run",
     "Application.StringCompareToExample.executor": "Run",
     "Application.StringConcatinationExample.executor": "Run",
     "Application.StringEqualOperatorExample.executor": "Run",
     "Application.StringEqualsExample.executor": "Run",
     "Application.StringExample.executor": "Run",
     "Application.StringImmutableExample.executor": "Run",
+    "Application.SwapTwoStringExample.executor": "Run",
     "Application.SwitchExample.executor": "Run",
     "Application.SwitchFallthroughExample.executor": "Run",
     "Application.SwitchStatementWithString.executor": "Run",
@@ -117,13 +123,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringConcatinationExample">
-    <configuration name="StringCompareToExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.string.StringCompareToExample" />
+  <component name="RunManager" selected="Application.SwapTwoStringExample">
+    <configuration name="CheckPalindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.StringCodingExample.CheckPalindrom" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.string.*" />
+          <option name="PATTERN" value="Day11.StringCodingExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConcatinationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.string.StringConcatinationExample" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.StringCodingExample.ReverseString" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.string.*" />
+          <option name="PATTERN" value="Day11.StringCodingExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEqualOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.string.StringEqualOperatorExample" />
+    <configuration name="StringBufferAndStringBuilderPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.StringBufferAndStringBuilderPerformanceTest" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.string.*" />
+          <option name="PATTERN" value="Day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEqualsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.string.StringEqualsExample" />
+    <configuration name="StringBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.stringbuilder.StringBuilderExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.string.*" />
+          <option name="PATTERN" value="Day11.stringbuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.string.StringImmutableExample" />
+    <configuration name="SwapTwoStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.StringCodingExample.SwapTwoStringExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.string.*" />
+          <option name="PATTERN" value="Day11.StringCodingExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringConcatinationExample" />
-        <item itemvalue="Application.StringCompareToExample" />
-        <item itemvalue="Application.StringEqualOperatorExample" />
-        <item itemvalue="Application.StringEqualsExample" />
-        <item itemvalue="Application.StringImmutableExample" />
+        <item itemvalue="Application.SwapTwoStringExample" />
+        <item itemvalue="Application.CheckPalindrom" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.StringBufferAndStringBuilderPerformanceTest" />
+        <item itemvalue="Application.StringBuilderExample" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715067895244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day 10 - Java- String">
+      <option name="closed" value="true" />
+      <created>1715319478113</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715319478113</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +319,7 @@
     <MESSAGE value="Day 7 - Java Access Modifier, Static, final and instance block" />
     <MESSAGE value="Day 8 - Java Arrays" />
     <MESSAGE value="Day 9 - Java- Arrays coding excersize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 9 - Java- Arrays coding excersize" />
+    <MESSAGE value="Day 10 - Java- String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 10 - Java- String" />
   </component>
 </project>
