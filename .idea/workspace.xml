@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 10 - Java- String">
-      <change afterPath="$PROJECT_DIR$/src/Day11/StringBufferAndStringBuilderPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/StringCodingExample/CheckPalindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/StringCodingExample/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/StringCodingExample/SwapTwoStringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/stringbuffer/StringBufferExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/stringbuilder/StringBuilderExample.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 11 - Java- StringBuffer and StringBuilder">
+      <change afterPath="$PROJECT_DIR$/src/Day12/ExceptionHandlingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/ExceptionScenarioExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/FinallyBlockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/InvalidAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/MultipleCatchBlockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/NestedTryBlockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/TestCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/ThrowExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/ThrowWithCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12/ThrowsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +67,9 @@
     "Application.DoWhileLoopExample.executor": "Run",
     "Application.DownwardTrianglePattern.executor": "Run",
     "Application.Employee.executor": "Run",
+    "Application.ExceptionHandlingExample.executor": "Run",
+    "Application.ExceptionScenarioExample.executor": "Run",
+    "Application.FinallyBlockExample.executor": "Run",
     "Application.FindDuplicateNumberInArray.executor": "Run",
     "Application.FindFequencyOfEachElementInArray.executor": "Run",
     "Application.FindMinimumNumberInArray.executor": "Run",
@@ -78,10 +85,12 @@
     "Application.InfiniteWhileLoop.executor": "Run",
     "Application.InstanceBlock.executor": "Run",
     "Application.LogicalOperatorExample.executor": "Run",
+    "Application.MultipleCatchBlockExample.executor": "Run",
     "Application.NestedIfExample.executor": "Run",
     "Application.NestedLoopBreakExample.executor": "Run",
     "Application.NestedLoopContinueExample.executor": "Run",
     "Application.NestedLoopExample.executor": "Run",
+    "Application.NestedTryBlockExample.executor": "Run",
     "Application.PrivateModifier.executor": "Run",
     "Application.Programmer.executor": "Run",
     "Application.PyramidExample.executor": "Run",
@@ -106,6 +115,7 @@
     "Application.TestArrayExample.executor": "Run",
     "Application.TestArrayException.executor": "Run",
     "Application.TestBank.executor": "Run",
+    "Application.TestCustomException.executor": "Run",
     "Application.TestDefaultModifier.executor": "Run",
     "Application.TestMethodOverloading.executor": "Run",
     "Application.TestMethodOverriding.executor": "Run",
@@ -116,6 +126,9 @@
     "Application.TestReturnArray.executor": "Run",
     "Application.TestStaticKeyword.executor": "Run",
     "Application.TestStudent.executor": "Run",
+    "Application.ThrowExample.executor": "Run",
+    "Application.ThrowWithCheckedException.executor": "Run",
+    "Application.ThrowsExample.executor": "Run",
     "Application.WhileLoopExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -123,13 +136,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwapTwoStringExample">
-    <configuration name="CheckPalindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.StringCodingExample.CheckPalindrom" />
+  <component name="RunManager" selected="Application.TestCustomException">
+    <configuration name="FinallyBlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.FinallyBlockExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.StringCodingExample.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.StringCodingExample.ReverseString" />
+    <configuration name="TestCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.TestCustomException" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.StringCodingExample.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferAndStringBuilderPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.StringBufferAndStringBuilderPerformanceTest" />
+    <configuration name="ThrowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.ThrowExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.stringbuilder.StringBuilderExample" />
+    <configuration name="ThrowWithCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.ThrowWithCheckedException" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.stringbuilder.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapTwoStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.StringCodingExample.SwapTwoStringExample" />
+    <configuration name="ThrowsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.ThrowsExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.StringCodingExample.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SwapTwoStringExample" />
-        <item itemvalue="Application.CheckPalindrom" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.StringBufferAndStringBuilderPerformanceTest" />
-        <item itemvalue="Application.StringBuilderExample" />
+        <item itemvalue="Application.TestCustomException" />
+        <item itemvalue="Application.ThrowsExample" />
+        <item itemvalue="Application.ThrowWithCheckedException" />
+        <item itemvalue="Application.ThrowExample" />
+        <item itemvalue="Application.FinallyBlockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715319478113</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Day 11 - Java- StringBuffer and StringBuilder">
+      <option name="closed" value="true" />
+      <created>1715405604593</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715405604593</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +341,7 @@
     <MESSAGE value="Day 8 - Java Arrays" />
     <MESSAGE value="Day 9 - Java- Arrays coding excersize" />
     <MESSAGE value="Day 10 - Java- String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 10 - Java- String" />
+    <MESSAGE value="Day 11 - Java- StringBuffer and StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 11 - Java- StringBuffer and StringBuilder" />
   </component>
 </project>
