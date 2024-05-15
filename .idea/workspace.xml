@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 11 - Java- StringBuffer and StringBuilder">
-      <change afterPath="$PROJECT_DIR$/src/Day12/ExceptionHandlingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/ExceptionScenarioExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/FinallyBlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/InvalidAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/MultipleCatchBlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/NestedTryBlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/TestCustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/ThrowExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/ThrowWithCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12/ThrowsExample.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 12 - Exception Handling">
+      <change afterPath="$PROJECT_DIR$/src/Day13/arraylist/ArrayListBookExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day13/arraylist/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day13/arraylist/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day13/linkedlist/LinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day13/linkedlist/LinkedListReverseExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +53,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArithmeticOperatorExample.executor": "Run",
+    "Application.ArrayListBookExample.executor": "Run",
+    "Application.ArrayListExample.executor": "Run",
     "Application.Bike.executor": "Run",
     "Application.CheckPalindrom.executor": "Run",
     "Application.CounterExample.executor": "Run",
@@ -84,6 +81,7 @@
     "Application.InfiniteDoWhileLoop.executor": "Run",
     "Application.InfiniteWhileLoop.executor": "Run",
     "Application.InstanceBlock.executor": "Run",
+    "Application.LinkedListExample.executor": "Run",
     "Application.LogicalOperatorExample.executor": "Run",
     "Application.MultipleCatchBlockExample.executor": "Run",
     "Application.NestedIfExample.executor": "Run",
@@ -136,13 +134,52 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestCustomException">
-    <configuration name="FinallyBlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.FinallyBlockExample" />
+  <component name="RunManager" selected="Application.LinkedListReverseExample">
+    <configuration name="ArrayListBookExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.arraylist.ArrayListBookExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day13.arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.arraylist.ArrayListExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day13.arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.linkedlist.LinkedListExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day13.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListReverseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.linkedlist.LinkedListReverseExample" />
+      <module name="FebQABootcamp-JavaClassPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day13.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,52 +200,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.ThrowExample" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThrowWithCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.ThrowWithCheckedException" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThrowsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.ThrowsExample" />
-      <module name="FebQABootcamp-JavaClassPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListReverseExample" />
+        <item itemvalue="Application.LinkedListExample" />
+        <item itemvalue="Application.ArrayListBookExample" />
+        <item itemvalue="Application.ArrayListExample" />
         <item itemvalue="Application.TestCustomException" />
-        <item itemvalue="Application.ThrowsExample" />
-        <item itemvalue="Application.ThrowWithCheckedException" />
-        <item itemvalue="Application.ThrowExample" />
-        <item itemvalue="Application.FinallyBlockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715405604593</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Day 12 - Exception Handling">
+      <option name="closed" value="true" />
+      <created>1715702784157</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715702784157</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,6 +348,7 @@
     <MESSAGE value="Day 9 - Java- Arrays coding excersize" />
     <MESSAGE value="Day 10 - Java- String" />
     <MESSAGE value="Day 11 - Java- StringBuffer and StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 11 - Java- StringBuffer and StringBuilder" />
+    <MESSAGE value="Day 12 - Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 12 - Exception Handling" />
   </component>
 </project>
