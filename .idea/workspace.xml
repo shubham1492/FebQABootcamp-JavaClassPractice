@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 12 - Exception Handling">
-      <change afterPath="$PROJECT_DIR$/src/Day13/arraylist/ArrayListBookExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day13/arraylist/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day13/arraylist/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day13/linkedlist/LinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day13/linkedlist/LinkedListReverseExample.java" afterDir="false" />
+    <list default="true" id="798f3583-277d-4ca0-bf80-cfd52b778fb8" name="Changes" comment="Day 13 - Collection Framework - ArrayList , LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/Day14/hasset/ArrayListToHashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/hasset/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/hasset/HashSetBookExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/hasset/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/hasset/LinkedHashsetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/hasset/TreeSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/map/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/map/HashMapScenarioExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/map/HashmapComparingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/map/LinkedHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day14/map/TreeMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +61,7 @@
     "Application.ArithmeticOperatorExample.executor": "Run",
     "Application.ArrayListBookExample.executor": "Run",
     "Application.ArrayListExample.executor": "Run",
+    "Application.ArrayListToHashSetExample.executor": "Run",
     "Application.Bike.executor": "Run",
     "Application.CheckPalindrom.executor": "Run",
     "Application.CounterExample.executor": "Run",
@@ -74,6 +81,11 @@
     "Application.ForExample.executor": "Run",
     "Application.ForLoopBreakExample.executor": "Run",
     "Application.ForLoopContinueExample.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashMapScenarioExample.executor": "Run",
+    "Application.HashSetBookExample.executor": "Run",
+    "Application.HashSetExample.executor": "Run",
+    "Application.HashmapComparingExample.executor": "Run",
     "Application.HpPrinter.executor": "Run",
     "Application.IfElseExample.executor": "Run",
     "Application.IfElseIfExample.executor": "Run",
@@ -81,6 +93,8 @@
     "Application.InfiniteDoWhileLoop.executor": "Run",
     "Application.InfiniteWhileLoop.executor": "Run",
     "Application.InstanceBlock.executor": "Run",
+    "Application.LinkedHashMapExample.executor": "Run",
+    "Application.LinkedHashsetExample.executor": "Run",
     "Application.LinkedListExample.executor": "Run",
     "Application.LogicalOperatorExample.executor": "Run",
     "Application.MultipleCatchBlockExample.executor": "Run",
@@ -127,6 +141,8 @@
     "Application.ThrowExample.executor": "Run",
     "Application.ThrowWithCheckedException.executor": "Run",
     "Application.ThrowsExample.executor": "Run",
+    "Application.TreeMapExample.executor": "Run",
+    "Application.TreeSetExample.executor": "Run",
     "Application.WhileLoopExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -134,13 +150,18 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListReverseExample">
-    <configuration name="ArrayListBookExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.arraylist.ArrayListBookExample" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day14.hasset" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HashMapScenarioExample">
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.map.HashMapExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.arraylist.*" />
+          <option name="PATTERN" value="Day14.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.arraylist.ArrayListExample" />
+    <configuration name="HashMapScenarioExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.map.HashMapScenarioExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.arraylist.*" />
+          <option name="PATTERN" value="Day14.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.linkedlist.LinkedListExample" />
+    <configuration name="HashmapComparingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.map.HashmapComparingExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.linkedlist.*" />
+          <option name="PATTERN" value="Day14.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListReverseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.linkedlist.LinkedListReverseExample" />
+    <configuration name="LinkedHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.map.LinkedHashMapExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.linkedlist.*" />
+          <option name="PATTERN" value="Day14.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.TestCustomException" />
+    <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.map.TreeMapExample" />
       <module name="FebQABootcamp-JavaClassPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day14.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListReverseExample" />
-        <item itemvalue="Application.LinkedListExample" />
-        <item itemvalue="Application.ArrayListBookExample" />
-        <item itemvalue="Application.ArrayListExample" />
-        <item itemvalue="Application.TestCustomException" />
+        <item itemvalue="Application.HashMapScenarioExample" />
+        <item itemvalue="Application.TreeMapExample" />
+        <item itemvalue="Application.LinkedHashMapExample" />
+        <item itemvalue="Application.HashmapComparingExample" />
+        <item itemvalue="Application.HashMapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715702784157</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day 13 - Collection Framework - ArrayList , LinkedList">
+      <option name="closed" value="true" />
+      <created>1715757427629</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715757427629</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,6 +378,7 @@
     <MESSAGE value="Day 10 - Java- String" />
     <MESSAGE value="Day 11 - Java- StringBuffer and StringBuilder" />
     <MESSAGE value="Day 12 - Exception Handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 12 - Exception Handling" />
+    <MESSAGE value="Day 13 - Collection Framework - ArrayList , LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 13 - Collection Framework - ArrayList , LinkedList" />
   </component>
 </project>
