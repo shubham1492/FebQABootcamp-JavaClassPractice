@@ -1,6 +1,5 @@
 package Day14.map;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -13,7 +12,7 @@ import java.util.Map;
  *       U ->2
  *
  */
-public class HashMapScenarioExample {
+public class FindDuplicateCharacterWithCount {
     public static void main(String[] args) {
 
         String str = "shubhamshu";
